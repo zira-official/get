@@ -1,0 +1,22 @@
+GET 0.1.0 - comando global `get`
+=================================
+
+Para poder escribir `get help` desde cualquier CMD:
+
+1. Extrae la carpeta GET_0.1.0_comando_get en una ubicacion permanente.
+   Por ejemplo: C:\Herramientas\GET
+2. Ejecuta instalar.cmd con doble clic.
+3. Cierra las ventanas CMD abiertas y abre una nueva.
+4. Ejecuta:
+   get help
+   get version
+
+COMANDOS DISPONIBLES
+--------------------
+get help
+get version
+get info https://github.com/usuario/repositorio
+
+El instalador agrega la carpeta de GET al PATH del usuario actual.
+No requiere permisos de administrador. No instala ADB.
+La descarga e instalacion de aplicaciones todavia no estan implementadas.
